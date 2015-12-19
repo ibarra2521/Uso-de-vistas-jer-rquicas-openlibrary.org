@@ -8,22 +8,36 @@
 
 /* Begin PBXBuildFile section */
 		41854C7A1C25C09900382CEA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41854C791C25C09900382CEA /* AppDelegate.swift */; };
-		41854C7C1C25C09900382CEA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41854C7B1C25C09900382CEA /* ViewController.swift */; };
 		41854C7F1C25C09900382CEA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41854C7D1C25C09900382CEA /* Main.storyboard */; };
 		41854C821C25C09900382CEA /* Uso_de_vistas_jera_rquicas.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 41854C801C25C09900382CEA /* Uso_de_vistas_jera_rquicas.xcdatamodeld */; };
 		41854C841C25C09900382CEA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41854C831C25C09900382CEA /* Assets.xcassets */; };
 		41854C871C25C09900382CEA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41854C851C25C09900382CEA /* LaunchScreen.storyboard */; };
+		41854C901C25C60400382CEA /* BookEntity+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41854C8E1C25C60400382CEA /* BookEntity+CoreDataProperties.swift */; };
+		41854C911C25C60400382CEA /* BookEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41854C8F1C25C60400382CEA /* BookEntity.swift */; };
+		41854C941C25C76200382CEA /* SearchDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41854C931C25C76200382CEA /* SearchDetailVC.swift */; };
+		41854C961C25C88500382CEA /* MainTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41854C951C25C88500382CEA /* MainTVC.swift */; };
+		41854CA81C25FD6C00382CEA /* ReachabilityNetworking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41854CA51C25FD6C00382CEA /* ReachabilityNetworking.swift */; };
+		41854CA91C25FD6C00382CEA /* ParsingHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41854CA61C25FD6C00382CEA /* ParsingHelper.swift */; };
+		41854CAA1C25FD6C00382CEA /* WebserviceHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41854CA71C25FD6C00382CEA /* WebserviceHelper.swift */; };
+		41854CAC1C260BFC00382CEA /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41854CAB1C260BFC00382CEA /* Book.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		41854C761C25C09900382CEA /* Uso de vistas jerárquicas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Uso de vistas jerárquicas.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		41854C791C25C09900382CEA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		41854C7B1C25C09900382CEA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		41854C7E1C25C09900382CEA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		41854C811C25C09900382CEA /* Uso_de_vistas_jera_rquicas.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Uso_de_vistas_jera_rquicas.xcdatamodel; sourceTree = "<group>"; };
 		41854C831C25C09900382CEA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		41854C861C25C09900382CEA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		41854C881C25C09900382CEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		41854C8E1C25C60400382CEA /* BookEntity+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "BookEntity+CoreDataProperties.swift"; path = "../BookEntity+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		41854C8F1C25C60400382CEA /* BookEntity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BookEntity.swift; path = ../BookEntity.swift; sourceTree = "<group>"; };
+		41854C931C25C76200382CEA /* SearchDetailVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchDetailVC.swift; sourceTree = "<group>"; };
+		41854C951C25C88500382CEA /* MainTVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTVC.swift; sourceTree = "<group>"; };
+		41854CA51C25FD6C00382CEA /* ReachabilityNetworking.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReachabilityNetworking.swift; sourceTree = "<group>"; };
+		41854CA61C25FD6C00382CEA /* ParsingHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParsingHelper.swift; sourceTree = "<group>"; };
+		41854CA71C25FD6C00382CEA /* WebserviceHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebserviceHelper.swift; sourceTree = "<group>"; };
+		41854CAB1C260BFC00382CEA /* Book.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Book.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +70,54 @@
 		41854C781C25C09900382CEA /* Uso de vistas jerárquicas */ = {
 			isa = PBXGroup;
 			children = (
+				41854C981C25D39000382CEA /* Model */,
+				41854C971C25D38900382CEA /* View */,
+				41854C921C25C6B700382CEA /* Controller */,
 				41854C791C25C09900382CEA /* AppDelegate.swift */,
-				41854C7B1C25C09900382CEA /* ViewController.swift */,
-				41854C7D1C25C09900382CEA /* Main.storyboard */,
 				41854C831C25C09900382CEA /* Assets.xcassets */,
 				41854C851C25C09900382CEA /* LaunchScreen.storyboard */,
 				41854C881C25C09900382CEA /* Info.plist */,
 				41854C801C25C09900382CEA /* Uso_de_vistas_jera_rquicas.xcdatamodeld */,
 			);
 			path = "Uso de vistas jerárquicas";
+			sourceTree = "<group>";
+		};
+		41854C921C25C6B700382CEA /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				41854CA41C25FD3200382CEA /* Helper */,
+				41854C951C25C88500382CEA /* MainTVC.swift */,
+				41854C931C25C76200382CEA /* SearchDetailVC.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		41854C971C25D38900382CEA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				41854C7D1C25C09900382CEA /* Main.storyboard */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		41854C981C25D39000382CEA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				41854CAB1C260BFC00382CEA /* Book.swift */,
+				41854C8E1C25C60400382CEA /* BookEntity+CoreDataProperties.swift */,
+				41854C8F1C25C60400382CEA /* BookEntity.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		41854CA41C25FD3200382CEA /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				41854CA51C25FD6C00382CEA /* ReachabilityNetworking.swift */,
+				41854CA61C25FD6C00382CEA /* ParsingHelper.swift */,
+				41854CA71C25FD6C00382CEA /* WebserviceHelper.swift */,
+			);
+			name = Helper;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,8 +192,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				41854C7C1C25C09900382CEA /* ViewController.swift in Sources */,
+				41854C941C25C76200382CEA /* SearchDetailVC.swift in Sources */,
+				41854C901C25C60400382CEA /* BookEntity+CoreDataProperties.swift in Sources */,
+				41854CA91C25FD6C00382CEA /* ParsingHelper.swift in Sources */,
 				41854C821C25C09900382CEA /* Uso_de_vistas_jera_rquicas.xcdatamodeld in Sources */,
+				41854CA81C25FD6C00382CEA /* ReachabilityNetworking.swift in Sources */,
+				41854CAA1C25FD6C00382CEA /* WebserviceHelper.swift in Sources */,
+				41854C911C25C60400382CEA /* BookEntity.swift in Sources */,
+				41854C961C25C88500382CEA /* MainTVC.swift in Sources */,
+				41854CAC1C260BFC00382CEA /* Book.swift in Sources */,
 				41854C7A1C25C09900382CEA /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
