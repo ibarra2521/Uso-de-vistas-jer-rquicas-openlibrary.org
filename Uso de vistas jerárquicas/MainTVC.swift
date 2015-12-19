@@ -65,6 +65,9 @@ class MainTVC: UITableViewController, NSFetchedResultsControllerDelegate {
         let cell = tableView.dequeueReusableCellWithIdentifier("cell", forIndexPath: indexPath)
 
         // Configure the cell...
+        cell.imageView?.layer.masksToBounds = true;
+        cell.imageView?.layer.cornerRadius = CGRectGetWidth((cell.imageView?.bounds)!)/1
+
         if indexPath.row % 2 == 0 {
             cell.backgroundColor = UIColor.clearColor()
         }else {

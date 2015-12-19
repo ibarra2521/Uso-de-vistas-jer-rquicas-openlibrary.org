@@ -25,14 +25,14 @@
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="i83-VD-eQP">
-                                            <rect key="frame" x="74" y="6" width="31.5" height="19.5"/>
+                                            <rect key="frame" x="74" y="4" width="39.5" height="23"/>
                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                            <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                            <fontDescription key="fontDescription" name="Didot-Bold" family="Didot" pointSize="18"/>
                                             <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                         <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Subtitle" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="5wa-Gy-rIl">
-                                            <rect key="frame" x="74" y="25.5" width="40.5" height="13.5"/>
+                                            <rect key="frame" x="74" y="27" width="40.5" height="13.5"/>
                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="11"/>
                                             <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
@@ -93,15 +93,15 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="u1a-V3-wW9">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="u1a-V3-wW9">
                                 <rect key="frame" x="77" y="92" width="503" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <fontDescription key="fontDescription" name="Palatino-Bold" family="Palatino" pointSize="20"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9vn-Oe-spi">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9vn-Oe-spi">
                                 <rect key="frame" x="97" y="130" width="483" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <fontDescription key="fontDescription" name="Palatino-Bold" family="Palatino" pointSize="20"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -118,7 +118,7 @@
                             <constraint firstItem="mVU-Pj-NQy" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="49" id="AmV-FZ-A9i"/>
                             <constraint firstItem="mVU-Pj-NQy" firstAttribute="top" secondItem="9vn-Oe-spi" secondAttribute="bottom" constant="36" id="DpO-cZ-fip"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="mVU-Pj-NQy" secondAttribute="bottom" constant="89" id="EMl-XJ-Ers"/>
-                            <constraint firstItem="9vn-Oe-spi" firstAttribute="baseline" secondItem="daj-Wr-Zi7" secondAttribute="baseline" id="HFK-wG-D1Z"/>
+                            <constraint firstItem="9vn-Oe-spi" firstAttribute="baseline" secondItem="daj-Wr-Zi7" secondAttribute="baseline" constant="-1.5" id="HFK-wG-D1Z"/>
                             <constraint firstItem="zDg-OE-nHs" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="J1d-v9-rfD"/>
                             <constraint firstItem="daj-Wr-Zi7" firstAttribute="baseline" secondItem="9vn-Oe-spi" secondAttribute="firstBaseline" id="KvN-Kw-Fb6"/>
                             <constraint firstItem="9vn-Oe-spi" firstAttribute="leading" secondItem="daj-Wr-Zi7" secondAttribute="trailing" constant="12" id="Rh6-U2-LL7"/>
@@ -128,7 +128,7 @@
                             <constraint firstItem="u1a-V3-wW9" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="V9G-EZ-9PW"/>
                             <constraint firstItem="daj-Wr-Zi7" firstAttribute="top" secondItem="9vn-Oe-spi" secondAttribute="top" id="a0Y-W6-LeU"/>
                             <constraint firstItem="mVU-Pj-NQy" firstAttribute="centerX" secondItem="u1a-V3-wW9" secondAttribute="centerX" constant="-28.5" id="bPb-dC-vsO"/>
-                            <constraint firstItem="u1a-V3-wW9" firstAttribute="baseline" secondItem="zDg-OE-nHs" secondAttribute="baseline" id="esf-PL-rdh"/>
+                            <constraint firstItem="u1a-V3-wW9" firstAttribute="baseline" secondItem="zDg-OE-nHs" secondAttribute="baseline" constant="-1.5" id="esf-PL-rdh"/>
                             <constraint firstItem="daj-Wr-Zi7" firstAttribute="top" secondItem="zDg-OE-nHs" secondAttribute="bottom" constant="17" id="iq3-31-0OY"/>
                             <constraint firstItem="mVU-Pj-NQy" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="umc-nk-eAb"/>
                         </constraints>
@@ -138,7 +138,7 @@
                         <textField key="titleView" opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="ISBN enter to search" textAlignment="natural" minimumFontSize="17" id="qGR-BU-UCU">
                             <rect key="frame" x="129" y="7" width="342" height="30"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <fontDescription key="fontDescription" name="Palatino-Bold" family="Palatino" pointSize="18"/>
                             <textInputTraits key="textInputTraits" keyboardAppearance="alert" returnKeyType="search"/>
                             <connections>
                                 <action selector="txtfIsbn:" destination="BYZ-38-t0r" eventType="editingDidEndOnExit" id="yhH-wJ-Yrt"/>

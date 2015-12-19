@@ -53,7 +53,7 @@ class SearchDetailVC: UIViewController, NSFetchedResultsControllerDelegate, Webs
         sender.resignFirstResponder()
         let isbn = sender.text
         if isbn!.characters.count > 0 {
-//            resetElements()
+            resetElements()
             requestServer()
         }else {
             showAlertMessage("Warning", message: "You must enter the ISBN of the book", owner: self)
@@ -102,14 +102,22 @@ class SearchDetailVC: UIViewController, NSFetchedResultsControllerDelegate, Webs
                     let imageData = NSData(contentsOfURL: NSURL(string:book.imageUrl!)!);
                     dispatch_async(dispatch_get_main_queue(), {
                         self.imgvCover.image = UIImage(data: imageData!)
-                        self.createNewBook() // 
+                        self.createNewBook()
                     })
                 })
             }else {
                 self.imgvCover.image = UIImage(named: "no found")
+                self.createNewBook()
             }
         }else {
             showAlertMessage("MESSAGE!!!", message: "ISBN not found", owner: self)
+            resetElements()
         }
+    }
+    
+    func resetElements() {
+        self.lblTitle.text = ""
+        self.lblAuthors.text = ""
+        self.imgvCover.image = UIImage(named: "no found")
     }
 }
